@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @EnableJpaRepositories(basePackages = "com.example.onetomany.repository")
-@SpringBootApplicatione
+@SpringBootApplication
 public class OneToManyApplication {
 
     public static void main(String[] args) {
